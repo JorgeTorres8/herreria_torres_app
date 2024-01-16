@@ -1,0 +1,26 @@
+.category {
+    display: flex;
+    padding: 1.3rem; 
+    align-items: center; 
+    gap: 1.2rem; 
+    border: 1px solid #c4c2c2;
+    width: 100%;
+}
+.currentCategory {
+    display: flex;
+    padding: 1.3rem; 
+    align-items: center; 
+    gap: 1.2rem; 
+    border: 1px solid #c4c2c2;
+    width: 100%; 
+    background-color: var(--light-blue);
+}
+.category:hover {
+    cursor: pointer;
+    box-shadow: var(--light-blue) 3px 3px 6px 0px inset, var(--light-blue) -3px -3px 6px 1px inset;
+}
+.button {
+    all: unset;
+    font-size: 1.7rem;
+    font-weight: 400;
+}

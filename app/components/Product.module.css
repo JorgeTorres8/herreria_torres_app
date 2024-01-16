@@ -1,0 +1,22 @@
+.product {
+    border: 2px solid var(--blue);
+    border-radius: 1rem;
+    padding: 1.6rem;
+}
+
+.img {
+    display: flex; 
+    justify-content: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.actions p {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
